@@ -10,7 +10,12 @@ Q1:  Given an input stream of 0s and 1s, detect the first occurrence of 1. Once 
 Projects:
 
 P1: Traffic Light Controller
---> using the FSM concept,assuming a junction and written this program based on the state diagram. 
+-- using the FSM concept,assuming a junction and written this program based on the state diagram. 
+P2: Traffic Light  Controller using the sonsors (x,y) or Switches to control
+-- This Code is written by assuming the 2 way road with 2 traffic lights opposite to each other, and they can be contol by the switches or the sensors (x,y);
+    1. Let assume the x connected to one side and y is connceted to other side.
+    2. Normally it works like a normal traffic lights system but when they sensors or swithes triggers the logic 1 then they can switch to respected operation like allowing to 
+      to go on one side only or when they both triggers then allows both direction to go. 
 
 
 
