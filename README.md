@@ -25,6 +25,26 @@ P3: Vending machine using FSM
     correct then it can dispense the selected item,else it shows the invalid coin or invalid state.
     The dispense is on untill the timer runs and then it can goes to idle state.
 
+    
+P4: Electronic Voting Machine
+    --Using behaviourial Modeling, assuming 3 candidates to participate
+    --When the respected switch means c1,c2,c3 of the candidate is trigger at the clock pulse then it can increment the count of the respected              candidate vote by 1. 
+    When the end voting is trigger, taking of votes is ended and it has to compare the votes of the candidates and then show the winner. In the comparision it compare whether if any 2 or more candidate has the similar no:of votes, if yes then it can rises the signal of the respected signal else it can compare the votes of each candidate then announce the winner.
+
+
+
+
+
+
+
+......................................................................................................................................................
+
+If you are facing any doubt feel free to ask via this details:
+Name: Talla Narayana Swami
+Phn : 9014389160
+Email: swami.8talla@gmail.com
+linkedin: https://www.linkedin.com/in/swamitalla/
+
 
 
 
