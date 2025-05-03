@@ -28,8 +28,18 @@ P3: Vending machine using FSM
     
 P4: Electronic Voting Machine
     --Using behaviourial Modeling, assuming 3 candidates to participate
-    --When the respected switch means c1,c2,c3 of the candidate is trigger at the clock pulse then it can increment the count of the respected              candidate vote by 1. 
-    When the end voting is trigger, taking of votes is ended and it has to compare the votes of the candidates and then show the winner. In the comparision it compare whether if any 2 or more candidate has the similar no:of votes, if yes then it can rises the signal of the respected signal else it can compare the votes of each candidate then announce the winner.
+    --When the respected switch means c1,c2,c3 of the candidate is trigger at the clock pulse then it can increment the count of the respected candidate vote by 1. 
+    When the end voting is trigger, taking of votes is ended and it has to compare the votes of the candidates and then show the winner. In the comparision it compare whether if any 2 or more candidate has the similar no:of votes, if yes then it can rises the signal of the respected signal else it can compare the votes of each candidate then announce the winner
+
+P5:Sine Wave Generator
+    --Using behavioral modeling, the design includes a Sine Wave Generator (SWG) which operates with a 1Hz clock derived from a higher-frequency input clock.
+    --The 1Hz signal is generated using a clock divider logic, toggling output every 50 million clock pulses.
+    --Using a phase accumulator approach, a Look-Up Table (LUT) is initialized with digital values corresponding to sine wave samples.
+    --The freq_control input defines the step size of the phase accumulator, which controls the frequency of the output sine wave.
+    --On every positive edge of the divided 1Hz clock, the system updates the phase and retrieves the corresponding sine value from the LUT.
+    --The final output is an 8-bit digital sine waveform, updated at 1Hz rate, and can be observed on the LED output.
+
+This project demonstrates how to combine clock division and phase-accumulated sine wave generation techniques using Verilog HDL, suitable for FPGA-based signal processing simulations.
 
 
 
